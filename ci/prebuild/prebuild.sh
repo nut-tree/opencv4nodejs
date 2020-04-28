@@ -1,7 +1,7 @@
 #!/bin/sh
 
-TARGET=$1
-RUNTIME=$2
+TARGET=${$1:-$TRAVIS_NODE_VERSION}
+RUNTIME=${$2:-node}
 
 cd ../../ &&\
 npm install --unsafe-perm &&\
