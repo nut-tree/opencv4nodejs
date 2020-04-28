@@ -21,69 +21,69 @@ environment:
     - nodejs_version: 14
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "14.0.0"
-        - RUNTIME: "node"
+        TARGET: "14.0.0"
+        RUNTIME: "node"
     - nodejs_version: 13
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "13.0.0"
-        - RUNTIME: "node"
+        TARGET: "13.0.0"
+        RUNTIME: "node"
     - nodejs_version: 12
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "12.0.0"
-        - RUNTIME: "node"
+        TARGET: "12.0.0"
+        RUNTIME: "node"
     - nodejs_version: 11
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "11.0.0"
-        - RUNTIME: "node"
+        TARGET: "11.0.0"
+        RUNTIME: "node"
     - nodejs_version: 10
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "10.0.0"
-        - RUNTIME: "node"
+        TARGET: "10.0.0"
+        RUNTIME: "node"
     - nodejs_version: 9
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "9.0.0"
-        - RUNTIME: "node"
+        TARGET: "9.0.0"
+        RUNTIME: "node"
     - nodejs_version: 8
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "8.0.0"
-        - RUNTIME: "node"
+        TARGET: "8.0.0"
+        RUNTIME: "node"
 
     - nodejs_version: 12
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "4.0.0"
-        - RUNTIME: "electron"
+        TARGET: "4.0.0"
+        RUNTIME: "electron"
     - nodejs_version: 12
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "4.0.4"
-        - RUNTIME: "electron"
+        TARGET: "4.0.4"
+        RUNTIME: "electron"
     - nodejs_version: 12
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "5.0.0"
-        - RUNTIME: "electron"
+        TARGET: "5.0.0"
+        RUNTIME: "electron"
     - nodejs_version: 12
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "6.0.0"
-        - RUNTIME: "electron"
+        TARGET: "6.0.0"
+        RUNTIME: "electron"
     - nodejs_version: 12
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "7.0.0"
-        - RUNTIME: "electron"
+        TARGET: "7.0.0"
+        RUNTIME: "electron"
     - nodejs_version: 12
       APPVEYOR_BUILD_WORKER_IMAGE: Visual Studio 2017
       environment:
-        - TARGET: "8.0.0"
-        - RUNTIME: "electron"
+        TARGET: "8.0.0"
+        RUNTIME: "electron"
 
 install:
   # - cmd: choco install OpenCV -y -version %OPENCV_VERSION%
