@@ -14,10 +14,8 @@ node_js:
   - 13
   - 14
 env:
-  - TARGET=$TRAVIS_NODE_VERSION
-  - BUILD_TASK=test
+  - BUILD_TASK=test 
   - BUILD_TASK=prebuild
-  - RUNTIME=node
 
 matrix:
   include:
