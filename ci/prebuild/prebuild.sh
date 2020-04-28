@@ -1,7 +1,13 @@
-#!/bin/sh
+#!/bin/bash
 
-TARGET=${$1:-$TRAVIS_NODE_VERSION}
-RUNTIME=${$2:-node}
+TARGET=$1
+RUNTIME=$2
+
+TARGET="${TARGET:-$TRAVIS_NODE_VERSION}"
+RUNTIME="${RUNTIME:-node}"
+
+echo "Prebuild target: ${TARGET}"
+echo "Prebuild runtime: ${RUNTIME}"
 
 cd ../../ &&\
 npm install --unsafe-perm &&\
