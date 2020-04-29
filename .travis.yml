@@ -55,6 +55,42 @@ matrix:
         - TARGET=8.0.0
         - BUILD_TASK=prebuild
         - RUNTIME=electron
+    - os: osx
+      node_js: 12
+      env:
+        - TARGET=4.0.0
+        - BUILD_TASK=prebuild
+        - RUNTIME=electron
+    - os: osx
+      node_js: 12
+      env:
+        - TARGET=4.0.4
+        - BUILD_TASK=prebuild
+        - RUNTIME=electron
+    - os: osx
+      node_js: 12
+      env:
+        - TARGET=5.0.0
+        - BUILD_TASK=prebuild
+        - RUNTIME=electron
+    - os: osx
+      node_js: 12
+      env:
+        - TARGET=6.0.0
+        - BUILD_TASK=prebuild
+        - RUNTIME=electron
+    - os: osx
+      node_js: 12
+      env:
+        - TARGET=7.0.0
+        - BUILD_TASK=prebuild
+        - RUNTIME=electron
+    - os: osx
+      node_js: 12
+      env:
+        - TARGET=8.0.0
+        - BUILD_TASK=prebuild
+        - RUNTIME=electron
 
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
