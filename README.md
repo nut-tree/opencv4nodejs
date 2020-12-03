@@ -205,7 +205,7 @@ The following environment variables can be passed:
 - opencvLibDir
 - opencvBinDir
 
-## Disabeling installation of prebuilt OpenCV
+## Disabling installation of prebuilt OpenCV
 
 By default opencv4nodejs-prebuilt will install a prebuilt version of OpenCV for the current platform via @nut-tree/opencv-build-(win32/linux/darwin).
 If you want to disable this behaviour (to e.g. provide your own OpenCV build), set the following environment variable:
